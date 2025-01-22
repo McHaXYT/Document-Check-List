@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", serif;
+    background-color: #212121;
+    color: #fdeff4;
+}
+
+main {
+    margin: 0 5%;
+}
+
+li {
+    list-style-position: inside;
+    margin-bottom: 8px;
+}
+
+.containerwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mainHeading {
+    margin: 75px 0 50px 0;
+    text-align: center;
+}
+
+.mainLastHeading {
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+
+.mainSubHeading,
+.mainLastHeading,
+.mainWhy {
+    margin-bottom: 10px;
+}
+
+.listContainer {
+    margin: 0px 0 50px 0;
+    max-width: 500px;
+    border: 1px solid #fdeff4;
+    border-radius: 5px;
+    padding: 50px;
+    height: min-content;
+}
